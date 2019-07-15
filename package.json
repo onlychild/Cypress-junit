@@ -1,7 +1,7 @@
 {
-  "name": "mocha-junit-reporter",
-  "version": "1.23.0",
-  "description": "A JUnit reporter for mocha.",
+  "name": "Cypress-junit-reporter",
+  "version": "0.0.1",
+  "description": "A JUnit reporter for Cypress.",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js test/*; exit 0",
@@ -10,16 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelleeallen/mocha-junit-reporter"
+    "url": "https://github.com/onlychild/Cypress-junit-reporter"
   },
   "keywords": [
     "mocha",
     "junit",
-    "reporter"
+    "reporter",
+    "Cypress"
   ],
   "author": {
-    "name": "Michael Allen",
-    "email": "michael.lee.allen@gmail.com"
+    "name": "Onlychild",
+    "email": "tinyonly@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
