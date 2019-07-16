@@ -1,5 +1,5 @@
 {
-  "name": "Cypress-junit-reporter",
+  "name": "cypress-junit",
   "version": "0.0.1",
   "description": "A JUnit reporter for Cypress.",
   "main": "index.js",
