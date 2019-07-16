@@ -9,6 +9,6 @@ deploy:
   email: $NPM_EMAIL
   api_key: $NPM_AUTH_KEY
   on:
-    branch: master
+    branch: dev-0.0.1
     tags: true
-    repo: michaelleeallen/mocha-junit-reporter
+    repo: onlychild/Cypress-junit-reporter
