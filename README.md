@@ -1,26 +1,23 @@
 # JUnit Reporter for Cypress
 
-[![Build Status][travis-badge]][travis-build]
-[![npm][npm-badge]][npm-listing]
-
 Produces JUnit-style XML test results.
 
 ## Installation
 
 ```shell
-$ npm install Cypress-junit-reporter --save-dev
+$ npm install cypress-junit --save-dev
 ```
 
 or as a global module
 ```shell
-$ npm install -g Cypress-junit-reporter
+$ npm install -g cypress-junit
 ```
 
 ## Usage
 ```javascript
 // cypress.json
 {
-  "reporter": "Cypress-junit-reporter",
+  "reporter": "cypress-junit",
   "reporterOptions": {
     "mochaFile": "./path_to_your/[hash].xml",   
     "toConsole": true,
