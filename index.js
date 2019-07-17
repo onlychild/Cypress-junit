@@ -287,7 +287,7 @@ MochaJUnitReporter.prototype.getTestcaseData = function(test, err) {
   // We need to merge console.logs and attachments into one <system-out> -
   //  see JUnit schema (only accepts 1 <system-out> per test).
   var systemOutLines = [],
-    _test = test.timing;
+    _test = test.timings;
   if (this._options.outputs && (_test && _test.consoleOutputs && _test.consoleOutputs.length > 0)) {
     systemOutLines = systemOutLines.concat(_test.consoleOutputs);
   }

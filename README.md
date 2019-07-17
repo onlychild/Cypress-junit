@@ -32,10 +32,10 @@ The JUnit format defines a pair of tags - `<system-out/>` and `<system-err/>` - 
 and error streams, respectively. It is possible to pass the test outputs/errors as an array of text lines:
 ```js
 it ('should report output', function () {
-  this.test.timing.consoleOutputs = [ 'line 1 of output', 'line 2 of output' ];
+  this.test.timings.consoleOutputs = [ 'line 1 of output', 'line 2 of output' ];
 });
 it ('should report error', function () {
-  this.test.timing.consoleErrors = [ 'line 1 of errors', 'line 2 of errors' ];
+  this.test.timings.consoleErrors = [ 'line 1 of errors', 'line 2 of errors' ];
 });
 ```
 ### Attachments
@@ -44,7 +44,7 @@ enabling the `attachments` configuration option will allow for attaching files a
 Attachment path can be injected into the test object
 ```js
 it ('should include attachment', function () {
-  this.test.timing.attachments = ['/absolut/path/to/file.png'];
+  this.test.timings.attachments = ['/absolut/path/to/file.png'];
 });
 ```
 
